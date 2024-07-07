@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: url('../images/rec1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-container {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 500px;
+}
+
+.reservation-form {
+  text-align: center;
+  color: rgb(10, 236, 10);
+}
+
+.reservation-form span {
+  font-size: 20px;
+}
+
+.reservation-form h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-form input,
+.reservation-form textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-bottom: 2px solid rgb(10, 236, 10);;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.reservation-form input::placeholder,
+.reservation-form textarea::placeholder {
+  color: rgb(10, 236, 10);;
+}
+
+.reservation-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.btn1 {
+  background-color: rgb(10, 236, 10);;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+  background-color: rgb(29, 123, 237);
+}
